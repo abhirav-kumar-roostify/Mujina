@@ -39,7 +39,6 @@
 
   <modules>
     <module>mujina-common</module>
-    <module>mujina-sp</module>
     <module>mujina-idp</module>
   </modules>
 
@@ -66,10 +65,6 @@
 
   <build>
     <plugins>
-      <plugin>
-        <groupId>pl.project13.maven</groupId>
-        <artifactId>git-commit-id-plugin</artifactId>
-      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
